@@ -27,9 +27,18 @@ public class JavaApplication34 {
         int resta = 0;
         int multi = 0;
         int division = 0;
-        
-        
-        
+
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("**********************************************************************************");
+        System.out.println("\t calculadora:  Ingrese dos números para que el programa le realice las operaciones ");
+        System.out.println("*************************************************************************************");
+        System.out.println("-------------------------------------------------------------------------------------");
+
+        System.out.println("-------------------------------------------------------------------------------------");
+
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("-------------------------------------------------------------------------------------");
+
         System.out.println("Dame un numero: ");
         a = sc.nextInt();
         System.out.println("Dame un numero: ");
@@ -39,18 +48,12 @@ public class JavaApplication34 {
         resta = a - b;
         multi = a * b;
         division = a / b;
-        
-            
-        
 
         System.out.println("La suma es: " + suma);
         System.out.println("La resta es: " + resta);
         System.out.println("La multiplicacion: " + multi);
         System.out.println("La division: " + division);
-       
-        
-    
-        
+
     }
 
 }
