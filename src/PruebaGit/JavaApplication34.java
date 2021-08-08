@@ -44,6 +44,9 @@ public class JavaApplication34 {
         
 
         System.out.println("La suma es: " + suma);
+        System.out.println("La resta es: " + resta);
+        System.out.println("La multiplicacion: " + multi);
+        System.out.println("La division: " + division);
        
         
     
