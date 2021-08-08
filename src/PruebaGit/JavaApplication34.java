@@ -17,24 +17,37 @@ public class JavaApplication34 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-         Scanner sc = new Scanner(System.in);
+
+        Scanner sc = new Scanner(System.in);
         // TODO code application logic here
+
+        int a = 0;
+        int b = 0;
+        int suma = 0;
+        int resta = 0;
+        int multi = 0;
+        int division = 0;
         
-        int a=0;
-        int b=0;
-        int suma=0;
+        
         
         System.out.println("Dame un numero: ");
         a = sc.nextInt();
         System.out.println("Dame un numero: ");
         b = sc.nextInt();
+
+        suma = a + b;
+        resta = a - b;
+        multi = a * b;
+        division = a / b;
         
-        suma=a+b;
-        System.out.println("La suma es: "+suma);
+            
         
+
+        System.out.println("La suma es: " + suma);
+       
         
+    
         
     }
-    
+
 }
